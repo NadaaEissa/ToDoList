@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white text-center">
+          <h3>📋 To-Do List</h3>
+        </div>
+        <div class="card-body">
+          <app-todo-form (addTask)="addTodo($event)"></app-todo-form>
+          <app-todo-list
+            [todos]="todos"
+            (deleteTask)="deleteTodo($event)"
+            (toggleTask)="toggleComplete($event)">
+          </app-todo-list>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
