@@ -36,7 +36,8 @@ src/app/
 
 bash
 
-git clone https://github.com/your-username/angular-todo-app.git
+git clone [https://github.com/NadaaEissa/ToDoList.git]
+
 2️⃣ Navigate to the project folder:
 
 bash
